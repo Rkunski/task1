@@ -1,0 +1,93 @@
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    background: #f6f6f6;
+    color: #666;
+    width: 950px;
+}
+h1{
+  color: #0974b3;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-left: 22px;
+  margin-top: 16px;
+}
+img{
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  margin: 23px;
+  margin-top: 5px;
+  margin-bottom: 41px;
+}
+p{
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+.left{
+  float: left;
+}
+.comment{
+  margin: 10px;
+  overflow: hidden;
+}
+.issac{
+  line-height: 1.5;
+  overflow: hidden;
+  min-width: 260px;
+  background: white;
+  border: 1px solid #9e9e9e6b;
+  border-top: 5px solid #0974b3;
+  margin: 30px auto;
+  margin-top: 0;
+
+}
+.date{
+  margin-left: 22px;
+  margin-top: -10px;
+  margin-bottom: -5px;
+}
+.br{
+  display: block;
+  margin-bottom: 0.8em;
+}
+.issac-left{
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  float:left;
+  width: 48%;
+  overflow: hidden;
+  background: white;
+  border: 1px solid #9e9e9e6b;
+  border-top: 5px solid #0974b3;
+  margin:25px auto;
+  margin-top: 0;
+}
+.issac-right{
+  line-height: 1.5;
+  text-align: left;
+  float:right;
+  width: 48%;
+  overflow: hidden;
+  background: white;
+  border: 1px solid #9e9e9e6b;
+  border-top: 5px solid #0974b3;
+  margin:25px auto;
+  margin-top: 0;
+}
